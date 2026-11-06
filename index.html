@@ -417,7 +417,7 @@
   <form class="dlg" id="dlg">
     <h2 id="dlgTitle">Gift this?</h2>
     <p id="dlgText">Your name will show to other friends so they know it's taken. Alyona won't see it here.</p>
-    <label for="nameIn">Your name</label>
+    <label for="nameIn">Your name (optional)</label>
     <input id="nameIn" maxlength="40" placeholder="e.g. Masha" autocomplete="name">
     <div class="row">
       <button type="button" class="btn plain" id="cancelDlg">Not yet</button>
@@ -448,12 +448,12 @@ const GIFTS = [
   { id:"curaprox-perio-plus", cat:"Self-care", title:"Curaprox Perio Plus Support toothpaste", note:"Perio Plus Support with CHX 0.09%, 75 ml.", price:"2 446 ₽", link:"https://goldapple.ru/19000000581-perio-plus-support-chx-0-09" },
   { id:"kerasys-soap", cat:"Self-care", title:"A nice bar of soap", note:"Like this Kerasys Vital Energy soap (100 g) — or any other soap you like.", price:"254 ₽", link:"https://goldapple.ru/98260600003-vital-energy-care" },
   { id:"darling-brow-guru", cat:"Self-care", title:"DARLING* Brow Guru brow pencil, shade 02", note:"Automatic waterproof brow pencil. Shade 02, please!", price:"740 ₽", link:"https://goldapple.ru/19000058859-brow-guru" },
-  { id:"gounelle-incognito", cat:"Hobbies", title:"«Бог всегда путешествует инкогнито»", note:"The novel by Laurent Gounelle (\"God Is Always Travelling Incognito\"), in Russian.", price:"", link:"https://www.chitai-gorod.ru/product/bog-vsegda-puteshestvuet-inkognito-2839271", linkLabel:"See it at Chitai-Gorod ↗" },
-  { id:"strugatsky-hard-to-be-god", cat:"Hobbies", title:"«Трудно быть богом»", note:"The classic sci-fi novella by Arkady and Boris Strugatsky (\"Hard to Be a God\"), in Russian.", price:"", link:"https://www.chitai-gorod.ru/product/trudno-byt-bogom-fantasticheskaya-povest-2480416", linkLabel:"See it at Chitai-Gorod ↗" },
-  { id:"hailey-airport", cat:"Hobbies", title:"«Аэропорт»", note:"The novel by Arthur Hailey (\"Airport\"), in Russian.", price:"", link:"https://www.chitai-gorod.ru/product/aeroport-roman-2426506", linkLabel:"See it at Chitai-Gorod ↗" },
+  { id:"gounelle-incognito", cat:"Hobbies", title:"«Бог всегда путешествует инкогнито»", note:"The novel by Laurent Gounelle (\"God Is Always Travelling Incognito\"), in Russian.", price:"499 ₽", link:"https://www.chitai-gorod.ru/product/bog-vsegda-puteshestvuet-inkognito-2839271", linkLabel:"See it at Chitai-Gorod ↗" },
+  { id:"strugatsky-hard-to-be-god", cat:"Hobbies", title:"«Трудно быть богом»", note:"The classic sci-fi novella by Arkady and Boris Strugatsky (\"Hard to Be a God\"), in Russian.", price:"399 ₽", link:"https://www.chitai-gorod.ru/product/trudno-byt-bogom-fantasticheskaya-povest-2480416", linkLabel:"See it at Chitai-Gorod ↗" },
+  { id:"hailey-airport", cat:"Hobbies", title:"«Аэропорт»", note:"The novel by Arthur Hailey (\"Airport\"), in Russian.", price:"579 ₽", link:"https://www.chitai-gorod.ru/product/aeroport-roman-2426506", linkLabel:"See it at Chitai-Gorod ↗" },
   { id:"crypto-museum", cat:"Experiences", title:"Museum of Cryptography gift certificate", note:"A gift certificate to the Museum of Cryptography in Moscow. Choose any amount.", price:"from 1 000 ₽", link:"https://zapomni.gift/cryptpgraphy-museum" },
-  { id:"socks", cat:"Cosy things", title:"Warm socks, size 39", note:"Like these from Sela or Mark Formelle — or any other socks you love in size 39.", price:"", link:"https://www.sela.ru/eshop/women/noski/noski/SL6810162421_2/", linkLabel:"Sela ↗", more:[{ label:"Mark Formelle ↗", url:"https://markformelle.ru/catalog/zhenshchinam/noski-i-kolgotki/noski-zhen/mf-zima/287k-3761-52792-157550/" }] },
-  { id:"puzzle-album", cat:"Hobbies", title:"Album for finished jigsaw puzzles", note:"A ring-binder album that stores assembled 500-piece puzzles (also fits 4K drawings and posters). I know delivery takes a while, but I'm back from vacation only at the end of November, so feel free to order it!", price:"", link:"https://market.yandex.ru/card/fotoalbom-dlya-pazlov-yunshuoji-na-500-detaley-albom-dlya-khraneniya-risunkov-4k-papka-dlya-posterov-papka-na-koltsakh/5636862286", linkLabel:"See it on Yandex Market ↗" },
+  { id:"socks", cat:"Cosy things", title:"Warm socks, size 39", note:"Like these from Sela or Mark Formelle — or any other socks you love in size 39.", price:"~400 ₽", link:"https://www.sela.ru/eshop/women/noski/noski/SL6810162421_2/", linkLabel:"Sela ↗", more:[{ label:"Mark Formelle ↗", url:"https://markformelle.ru/catalog/zhenshchinam/noski-i-kolgotki/noski-zhen/mf-zima/287k-3761-52792-157550/" }] },
+  { id:"puzzle-album", cat:"Hobbies", title:"Album for finished jigsaw puzzles", note:"A ring-binder album that stores assembled 500-piece puzzles (also fits 4K drawings and posters). I know delivery takes a while, but I'm back from vacation only at the end of November, so feel free to order it!", price:"~4 000 ₽", link:"https://market.yandex.ru/card/fotoalbom-dlya-pazlov-yunshuoji-na-500-detaley-albom-dlya-khraneniya-risunkov-4k-papka-dlya-posterov-papka-na-koltsakh/5636862286", linkLabel:"See it on Yandex Market ↗" },
   { id:"magnetic-phone-stand", cat:"Hobbies", title:"Magnetic phone stand", note:"An adjustable magnetic desk stand for my phone.", price:"~2 700–3 000 ₽", link:"https://www.ozon.ru/product/derzhatel-dlya-telefona-magnitnyy-podstavka-nastolnaya-reguliruemaya-2032926706/" },
 ];
 /* ====================== */
@@ -542,7 +542,7 @@ function render(){
       action = `<div class="status" style="margin-bottom:8px">You're gifting this ♡</div>
                 <button class="btn ghost" data-cancel="${esc(g.id)}" ${busy ? "disabled" : ""}>Cancel my reservation</button>`;
     } else if (r) {
-      action = `<div class="status">Reserved by ${esc(r.name || "a friend")}<small>Pick another box</small></div>`;
+      action = `<div class="status">Already reserved by a friend<small>Pick another box</small></div>`;
     } else {
       action = `<button class="btn" data-reserve="${esc(g.id)}" ${loaded && !busy ? "" : "disabled"}>${loaded ? "I'll gift this" : "Loading…"}</button>`;
     }
@@ -576,7 +576,7 @@ street.addEventListener("click", e => {
 function openDlg(id){
   pendingGift = GIFTS.find(g => g.id === id);
   $("#dlgTitle").textContent = `Gift “${pendingGift.title}”?`;
-  $("#dlgText").textContent = `Your name will show to other friends so they know it's taken. ${NAME} won't see it.`;
+  $("#dlgText").textContent = `Your name stays private — the page only shows that this gift is taken.`;
   $("#nameIn").value = store("wl_name") || "";
   $("#veil").hidden = false;
   setTimeout(() => $("#nameIn").focus(), 30);
@@ -589,7 +589,6 @@ $("#dlg").addEventListener("submit", async e => {
   e.preventDefault();
   if (!pendingGift) return;
   const name = $("#nameIn").value.trim().slice(0, 40);
-  if (!name) { $("#nameIn").focus(); return; }
   store("wl_name", name);
   const gift = pendingGift;
   const ok = $("#okDlg"); ok.disabled = true; ok.textContent = "Reserving…";
